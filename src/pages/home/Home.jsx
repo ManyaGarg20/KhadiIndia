@@ -1,10 +1,17 @@
 /* eslint-disable no-unused-vars */
-import React from 'react'
+import React , {useContext} from 'react'
 import Layout from '../../components/layout/Layout'
+import myContext from '../../context/data/myContext';
 
 function Home() {
+const context = useContext(myContext);
+
+const {state ,color} = context;
   return (
-    <Layout>Home</Layout>
+    <Layout >
+      <h1>name : {state.name}</h1>
+      <h1>color : {color} </h1>
+      Home</Layout>
   )
 }
 

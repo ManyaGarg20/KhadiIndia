@@ -1,10 +1,8 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 
-function AllProducts() {
+export default function NoPage() {
   return (
-    <div>AllProducts</div>
+    <div>NoPage</div>
   )
 }
-
-export default AllProducts
