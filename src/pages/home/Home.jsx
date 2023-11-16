@@ -9,9 +9,7 @@ const context = useContext(myContext);
 const {state ,color} = context;
   return (
     <Layout >
-      <h1>name : {state.name}</h1>
-      <h1>color : {color} </h1>
-      Home</Layout>
+            Home</Layout>
   )
 }
 

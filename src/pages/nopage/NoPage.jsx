@@ -1,8 +1,9 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
+import Layout from '../../components/layout/Layout'
 
 export default function NoPage() {
   return (
-    <div>NoPage</div>
+    <Layout>NoPage</Layout>
   )
 }

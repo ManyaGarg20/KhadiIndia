@@ -1,9 +1,10 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
+import Layout from '../../../components/layout/Layout'
 
 function Dashboard() {
   return (
-    <div>Dashboard</div>
+    <Layout>Dashboard</Layout>
   )
 }
 

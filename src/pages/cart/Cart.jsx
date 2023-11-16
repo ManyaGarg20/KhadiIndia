@@ -1,9 +1,10 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
+import Layout from '../../components/layout/Layout'
 
 function Cart() {
   return (
-    <div>Cart</div>
+    <Layout>Cart</Layout>
   )
 }
 
