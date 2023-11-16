@@ -3,7 +3,7 @@ import React from 'react'
 function HeroSection() {
   return (
     <div>
-        <img style={{width:"100vw" , height:"50vh"}} src="https://images.hindustantimes.com/rf/image_size_960x540/HT/p2/2019/08/30/Pictures/_84648ab0-cae4-11e9-9a71-0afbe126130e.png" alt="imgHeroSection" />
+        <img style={{width:"100vw" , height:"50vh"}} src="https://img.etimg.com/thumb/width-1600,height-900,imgsize-574369,resizemode-75,msid-98172870/industry/services/retail/over-55-of-small-town-residents-preferred-online-shopping-for-gifts-clothing-and-footwear-survey.jpg" alt="imgHeroSection" />
 
     </div>
   )
