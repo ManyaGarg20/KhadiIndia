@@ -5,6 +5,7 @@ import myContext from '../../context/data/myContext';
 import HeroSection from '../../components/HeroSection/HeroSection';
 import Filter from '../../components/filter/Filter'
 import ProductCard from '../../components/productCard/ProductCard';
+import Testimonial from '../../components/testimonials/Testimonial';
 
 function Home() {
 const context = useContext(myContext);
@@ -15,6 +16,8 @@ const {state ,color} = context;
            <HeroSection />
            <Filter />
            <ProductCard/> 
+           {/* <Track/> */}
+      <Testimonial />
             </Layout>
   )
 }
