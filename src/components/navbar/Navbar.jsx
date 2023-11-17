@@ -59,6 +59,11 @@ export default function Navbar() {
                     All Products
                   </Link>
                   <div className="flow-root">
+                    <Link to={'/home'} className="-m-2 block p-2 font-medium text-gray-900" style={{ color: mode === 'dark' ? 'white' : '', }}>
+                     Home
+                    </Link>
+                  </div>
+                  <div className="flow-root">
                     <Link to={'/order'} style={{ color: mode === 'dark' ? 'white' : '', }} className="-m-2 block p-2 font-medium text-gray-900">
                       Order
                     </Link>
@@ -125,7 +130,7 @@ export default function Navbar() {
               <div className="ml-4 flex lg:ml-0">
                 <Link to={'/'} className='flex'>
                   <div className="flex ">
-                    <h1 className=' text-2xl font-bold text-black  px-2 py-1 rounded' style={{ color: mode === 'dark' ? 'white' : '', }}> Khadi India</h1>
+                    <h1 className=' text-2xl font-bold text-black  px-2 py-1 rounded' style={{ color: mode === 'dark' ? 'white' : '', }}> LOGO</h1>
                   </div>
                 </Link>
               </div>
@@ -136,6 +141,11 @@ export default function Navbar() {
                   <Link to={'/allproducts'} className="text-sm font-medium text-gray-700 " style={{ color: mode === 'dark' ? 'white' : '', }}>
                     All Products
                   </Link>
+                  
+                  <Link to={'/home'} className="text-sm font-medium text-gray-700 " style={{ color: mode === 'dark' ? 'white' : '', }}>
+                    Home
+                  </Link>
+                  
                   <Link to={'/order'} className="text-sm font-medium text-gray-700 " style={{ color: mode === 'dark' ? 'white' : '', }}>
                     My Order
                   </Link>
