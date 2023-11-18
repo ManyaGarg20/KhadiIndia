@@ -49,14 +49,12 @@ export default function Footer() {
                             <li>
                                 <Link to={'/privacypolicy'} className="text-gray-600 hover:text-gray-800" style={{ color: mode === 'dark' ? 'white' : '' }}>Privacy</Link>
                             </li>
-
                         </nav>
                     </div>
                     <div className="lg:w-1/4 md:w-1/2 w-full px-4">
                         <img src="https://ecommerce-sk.vercel.app/pay.png" alt="" />
                     </div>
                 </div>
-
             </div>
 
             <div className="bg-gray-200" style={{ backgroundColor: mode === 'dark' ? 'rgb(55 57 61)' : '', color: mode === 'dark' ? 'white' : '', }}>
